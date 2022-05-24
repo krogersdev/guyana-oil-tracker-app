@@ -1,0 +1,25 @@
+{
+    "discoveries": [
+      {
+        "id": 1,
+        "wellName": "Liza-1 well",
+        "date": "May 20, 2015",
+        "reservoirs": 90,
+        "location": "Stabroek",
+        "link": "https://exxonmobil.co/2IjwFPG",
+        "investor": [ {"ExxonMobil":45}, {"Hess":30}, {"CNOOC Nexen Petroleum":25} ]
+      },
+      {
+        "id": 2,
+        "wellName": "Payara- 1",
+        "date": "Jan 12, 2017",
+        "reservoirs": 95,
+        "location": "Stabroek",
+        "link": "https://exxonmobil.co/2J3h5Y8",
+        "investor": [ {"ExxonMobil":45}, {"Hess":30}, {"CNOOC Nexen Petroleum":25} ]
+      }
+    ]
+  }
+
+
+  
