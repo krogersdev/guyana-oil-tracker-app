@@ -2,7 +2,7 @@
     "discoveries": [
       {
         "id": 1,
-        "wellName": "Liza-1 well",
+        "wellName": "Liza-1",
         "date": "May 20, 2015",
         "reservoirs": 90,
         "location": "Stabroek",

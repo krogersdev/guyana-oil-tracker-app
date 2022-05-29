@@ -20,7 +20,7 @@ function App() {
         <Route path="/admin-login" element={<AdminLogin />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

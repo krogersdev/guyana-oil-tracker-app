@@ -2,15 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const TimelineItem = ({ discovery }) => {
-  const { location, date, wellName, reservoir, link } = discovery;
+  const { wellName, date, reservoirs, location, link } = discovery;
+  console.log("discovery", discovery);
 
   return (
     <div className="timeline-item">
       <div className="timeline-item-content">
         <span className="location">{location}</span>
         <time>{date}</time>
-        <p>{wellName}</p>
-        <span>{reservoir}</span>
+        <p>{wellName} well</p>
+        <span> depth: {reservoirs} (meters)</span>
         <a
           className="article-link"
           href={link}
